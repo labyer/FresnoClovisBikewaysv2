@@ -1,0 +1,321 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+/*
+
+img {
+  float: left;
+  padding-right: 10px;
+}
+*/
+
+.circle {
+    border-radius: 50%;
+}
+
+.type1 {
+    display: block;
+    /*box-sizing: border-box;*/
+    font-size: .6125rem;
+    width: 3.25rem;
+    line-height: 3.25rem;
+    height: 3.175rem;
+    background: rgba(5,90,90,0.8);
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.fa {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#leftBar {
+    z-index: 1000;
+}
+
+#add-route {
+    cursor: pointer;
+}
+
+#about {
+    cursor: pointer;
+}
+
+#cancel {
+    cursor: pointer;
+}
+
+.icon-hover:hover {
+    background: rgba(0,80,80,1);
+}
+
+.icon-click {
+    background:none;
+    background-color: #1b75bb;
+    border-radius: 6px;
+}
+
+#add-point {
+    display:inline-block;
+    cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+h1 {
+  line-height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+iframe {
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.legend-elements {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 13px;
+  color: black;
+  text-indent: 40px;
+}
+
+.legend-style {
+  position:relative;
+  width: 200px;
+  height: 140px;
+  background-color: white;
+  border:0.5px solid lightgrey;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 5px;
+  margin: 7px;
+}
+
+
+.bikeway-legend-class1 {
+  position:absolute;
+  left: 5%;
+  top: 29%;
+  background: #258807;
+  width: 30px;
+  height: 3px;
+  border-radius: 0%;
+}
+
+.bikeway-legend-class2 {
+  position:absolute;
+  left: 5%;
+  top: 54%;
+  background: #fa9857;
+  width: 30px;
+  height: 3px;
+  border-radius: 0%;
+}
+
+.bikeway-legend-class3 {
+  position:absolute;
+  left: 5%;
+  top: 80%;
+  background: #9f0909;
+  width: 30px;
+  height: 3px;
+  border-radius: 0%;
+}
+
+/*
+button {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 28px;
+
+}*/
+
+
+.input-buttons {
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.4);
+  color: black;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  text-align: left;
+  -webkit-transition-duration: 0.4s;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  transition-duration: 0.4s;
+  padding: 10px;
+  margin: 10px;
+  width: 430px;
+  height:60px;
+}
+
+.input-buttons:hover {
+  background-color: grey;
+  color: white;
+}
+
+.input-buttons:click {
+  background-color: grey;
+  color: white;
+  border: none;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 12px;
+    width: 25%; /* Could be more or less, depending on screen size */
+}
+
+
+/*.btn {
+  background-color: #00BCD4;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: 16px;
+  padding: 7px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+
+.btn-danger {
+  background-color: #00BCD4;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: 16px;
+  padding: 7px;
+  margin: 10px;
+  width: 250px;
+}
+
+.btn-primary {
+  background-color: #00BCD4;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  font-size: 16px;
+  padding: 7px;
+  margin: 10px;
+  max-width: 300px;
+}*/
+
+#survey {
+    background: rgba(0,0,0,0.9);
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+
+#survey.hide {
+    opacity: 0;
+    transform: scale(0,0);
+    transition: .75s all ease-in-out .75s;
+}
+
+#survey.remove {
+    display: none;
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+#controls {
+  width: 100%;
+  margin: 0 auto;
+  float: left;
+}
+
+#form {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: left;
+  line-height: 16px;
+  width:375px;
+  float: left;
+}
+
+#header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#credits p {
+  margin-top: 5px;
+  font-size: 12px;
+  text-align: right;
+  line-height: 16px;
+}
+
+
+.j-leaflet-draw-tooltip{
+	visibility: visible;
+}
+
+.pointing{
+	cursor: pointer;
+}
